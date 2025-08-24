@@ -1,0 +1,220 @@
+[
+  {
+    "assessment": "GO & WRA Assessment",
+    "fields": [
+      {
+        "subHeading": "WTG Details as per GO",
+        "inputs": [
+          { "name": "go_details.sy_no", "label": "Sy No (GO)", "type": "text" },
+          { "name": "go_details.latitude", "label": "Latitude (GO)", "type": "text" },
+          { "name": "go_details.longitude", "label": "Longitude (GO)", "type": "text" }
+        ]
+      },
+      {
+        "subHeading": "Actual (Shifting/Revised)",
+        "inputs": [
+          { "name": "actual_details.sy_no", "label": "Sy No (Actual)", "type": "text" },
+          { "name": "actual_details.latitude", "label": "Latitude (Actual)", "type": "text" },
+          { "name": "actual_details.longitude", "label": "Longitude (Actual)", "type": "text" },
+          { "name": "actual_details.wra_status", "label": "WRA Status", "type": "Approved/Rejected" },
+          { "name": "actual_details.farmer_willing_status", "label": "Farmer Willing Status", "type": "Yes/No" }
+        ]
+      },
+      {
+        "subHeading": "Final FMB Coordinates",
+        "inputs": [
+          { "name": "final_fmb_coordinates.latitude", "label": "Final FMB Latitude", "type": "text" },
+          { "name": "final_fmb_coordinates.longitude", "label": "Final FMB Longitude", "type": "text" }
+        ]
+      },
+      {
+        "subHeading": "Assessment Results",
+        "inputs": [
+          { "name": "wra_difference", "label": "Difference WRA vs FMB", "type": "text" },
+          { "name": "wra_shifting_approval_required", "label": "WRA Shifting Approval Required", "type": "Yes/No" },
+          { "name": "remarks", "label": "Remarks", "type": "text" }
+        ]
+      }
+    ]
+  },
+  {
+    "assessment": "Location & Farmer Details",
+    "fields": [
+      {
+        "subHeading": "Location Information",
+        "inputs": [
+          { "name": "fmb_coordinates.latitude", "label": "FMB Latitude", "type": "text" },
+          { "name": "fmb_coordinates.longitude", "label": "FMB Longitude", "type": "text" },
+          { "name": "sale_lease_pathway_bellmouth_boom_assembly", "label": "Sale/Lease/Pathway/Bellmouth/Boom Assembly", "type": "text" },
+          { "name": "village", "label": "Village", "type": "text" },
+          { "name": "taluk", "label": "Taluk", "type": "text" },
+          { "name": "hobli", "label": "Hobli", "type": "text" },
+          { "name": "district", "label": "District", "type": "text" },
+          { "name": "broker_name", "label": "Broker Name", "type": "text" },
+          { "name": "sy_no", "label": "Sy No", "type": "text" },
+          { "name": "rtc_extent.acre", "label": "RTC Extent Acre", "type": "number" },
+          { "name": "rtc_extent.gunta", "label": "RTC Extent Gunta", "type": "number" },
+          { "name": "actual_extent.acre", "label": "Actual Extent Acre", "type": "number" },
+          { "name": "actual_extent.gunta", "label": "Actual Extent Gunta", "type": "number" },
+          { "name": "remarks", "label": "Remarks", "type": "text" }
+        ]
+      },
+      {
+        "subHeading": "Farmer Details",
+        "inputs": [
+          { "name": "farmer_details.name", "label": "Farmer Name", "type": "text" },
+          { "name": "farmer_details.mobile_no", "label": "Mobile No", "type": "number" },
+          { "name": "farmer_details.adhar_no", "label": "Aadhar No", "type": "number" },
+          { "name": "farmer_details.pan_no", "label": "PAN No", "type": "text" },
+          { "name": "farmer_details.adhar_pan_link_status", "label": "Aadhar & PAN Link Status", "type": "Yes/No" },
+          { "name": "farmer_details.bank_account_no", "label": "Bank Account No", "type": "number" },
+          { "name": "farmer_details.ifsc_code", "label": "IFSC Code", "type": "text" },
+          { "name": "farmer_details.bank_name", "label": "Bank Name", "type": "text" },
+          { "name": "farmer_details.consent", "label": "Consent", "type": "Yes/No" }
+        ]
+      }
+    ]
+  },
+  {
+    "assessment": "Document Collection Details",
+    "fields": [
+      {
+        "subHeading": "Document Information",
+        "inputs": [
+          { "name": "sy_no", "label": "Sy No", "type": "text" },
+          { "name": "doc_collection_date", "label": "Document Collection Date", "type": "date" },
+          { "name": "existing_mortgage_loan", "label": "Existing Mortgage Loan", "type": "number" },
+          { "name": "remarks", "label": "Remarks", "type": "text" }
+        ]
+      },
+      {
+        "subHeading": "Collection Status",
+        "inputs": [
+          { "name": "autocad_fmb", "label": "Autocad FMB", "type": "Yes/No" },
+          { "name": "kyc", "label": "KYC", "type": "date" },
+          { "name": "family_tree", "label": "Family Tree", "type": "date" },
+          { "name": "khasara_pani", "label": "Khasara Pani", "type": "date" },
+          { "name": "old_rtc", "label": "Old RTC", "type": "date" },
+          { "name": "new_rtc", "label": "New RTC", "type": "date" },
+          { "name": "rtc_reflected_mutations", "label": "RTC Reflected Mutations", "type": "date" },
+          { "name": "tippani", "label": "Tippani", "type": "date" },
+          { "name": "hissa_tippani", "label": "Hissa Tippani", "type": "date" },
+          { "name": "akarbandh", "label": "Akarbandh", "type": "date" },
+          { "name": "form_10", "label": "Form 10", "type": "date" },
+          { "name": "nil_tendency", "label": "Nil Tendency", "type": "date" },
+          { "name": "land_holding", "label": "Land Holding", "type": "date" },
+          { "name": "ptcl", "label": "PTCL", "type": "date" },
+          { "name": "nil_acquisation", "label": "Nil Acquisition", "type": "date" }
+        ]
+      }
+    ]
+  },
+  {
+    "assessment": "TSR Tracker & Registration",
+    "fields": [
+      {
+        "subHeading": "TSR Information",
+        "inputs": [
+          { "name": "dateOfDocUpload", "label": "Date of Doc Upload", "type": "date" },
+          { "name": "dateOfFirstLevelReportReceived", "label": "1st Level Report Received", "type": "date" },
+          { "name": "dateOfFirstLevelDocUploaded", "label": "1st Level Doc Uploaded", "type": "date" },
+          { "name": "dateOfSecondLevelReportReceived", "label": "2nd Level Report Received", "type": "date" },
+          { "name": "dateOfSecondLevelDocUploaded", "label": "2nd Level Doc Uploaded", "type": "date" },
+          { "name": "dateOfPreliminaryTSRReceipt", "label": "Preliminary TSR Receipt", "type": "date" },
+          { "name": "dateOfPendingYellowPointsUploaded", "label": "Pending Yellow Points Uploaded", "type": "date" },
+          { "name": "dateOfFinalSignedTSRReceived", "label": "Final Signed TSR Received", "type": "date" },
+          { "name": "publicNotice", "label": "Public Notice", "type": "Yes/No" },
+          { "name": "draft", "label": "Draft", "type": "Yes/No" },
+          { "name": "k2", "label": "K2", "type": "Yes/No" }
+        ]
+      },
+      {
+        "subHeading": "Registration Details",
+        "inputs": [
+          { "name": "ddRequest", "label": "DD Request", "type": "Yes/No" },
+          { "name": "ddReceipt", "label": "DD Receipt", "type": "Yes/No" },
+          { "name": "registrationDate", "label": "Registration Date", "type": "date" },
+          { "name": "remarks", "label": "Remarks", "type": "text" }
+        ]
+      }
+    ]
+  },
+  {
+    "assessment": "Post Registration",
+    "fields": [
+      {
+        "subHeading": "Post Registration Activities",
+        "inputs": [
+          { "name": "syNo", "label": "Sy No", "type": "text" },
+          { "name": "dateRegistered", "label": "Date Registered", "type": "date" },
+          { "name": "atsSaleDeed", "label": "ATS/Sale Deed", "type": "date" },
+          { "name": "atlLeaseDeed", "label": "ATL/Lease Deed", "type": "date" },
+          { "name": "pathway", "label": "Pathway", "type": "date" },
+          { "name": "bellmouth", "label": "Bellmouth", "type": "date" },
+          { "name": "boomAssembly", "label": "Boom Assembly", "type": "date" },
+          { "name": "naApplication", "label": "NA Application", "type": "date" },
+          { "name": "naAward", "label": "NA Award", "type": "date" },
+          { "name": "saleDeed", "label": "Sale Deed", "type": "date" },
+          { "name": "leaseDeed", "label": "Lease Deed", "type": "date" }
+        ]
+      },
+      {
+        "subHeading": "Follow-up Details",
+        "inputs": [
+          { "name": "rtcUpgradation", "label": "RTC Upgradation", "type": "Yes/No" },
+          { "name": "eKhata", "label": "E Khata", "type": "date" }
+        ]
+      }
+    ]
+  },
+  {
+    "assessment": "PODI 11E Alignment",
+    "fields": [
+      {
+        "subHeading": "Alignment Information",
+        "inputs": [
+          { "name": "syNo", "label": "Sy No", "type": "text" },
+          { "name": "applicationApplyDate", "label": "Application Apply Date", "type": "date" },
+          { "name": "applicationNumber", "label": "Application Number", "type": "text" },
+          { "name": "surveyorAllocation", "label": "Surveyor Allocation", "type": "date" }
+        ]
+      },
+      {
+        "subHeading": "Technical Details",
+        "inputs": [
+          { "name": "bhoomikendra", "label": "Bhoomikendra", "type": "date" },
+          { "name": "adlr", "label": "ADLR", "type": "date" },
+          { "name": "sketchUpload", "label": "Sketch Upload", "type": "date" },
+          { "name": "remarks", "label": "Remarks", "type": "text" }
+        ]
+      }
+    ]
+  },
+  {
+    "assessment": "NA Tracker",
+    "fields": [
+      {
+        "subHeading": "Footprints Details",
+        "inputs": [
+          { "name": "syNo", "label": "Sy No", "type": "text" },
+          { "name": "footprintArea", "label": "Footprint Area", "type": "Sale/Lease" },
+          { "name": "affidavitId", "label": "Affidavit ID", "type": "text" }
+        ]
+      },
+      {
+        "subHeading": "Order & Payment Details",
+        "inputs": [
+          { "name": "riDate", "label": "RI Date", "type": "date" },
+          { "name": "thasildarDate", "label": "Thasildar Date", "type": "date" },
+          { "name": "dcCaseWorkerDate", "label": "DC Case Worker Date", "type": "date" },
+          { "name": "dcSirastedarDate", "label": "DC Sirastedar Date", "type": "date" },
+          { "name": "adcDate", "label": "ADC Date", "type": "date" },
+          { "name": "dcDate", "label": "DC Date", "type": "date" },
+          { "name": "feePayment", "label": "Fee Payment", "type": "Yes/No" },
+          { "name": "finalOrder", "label": "Final Order", "type": "Yes/No" },
+          { "name": "remarks", "label": "Remarks", "type": "text" }
+        ]
+      }
+    ]
+  }
+]

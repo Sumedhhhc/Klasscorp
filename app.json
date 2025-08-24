@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "KLASSCORP",
+    "slug": "klasscorp",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"], 
+    "orientation": "portrait",
+    "icon": "./assets/icon/Klasscorp_splash.png",
+    "scheme": "klasscorp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon/Klasscorp_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon/Klasscorp_splash.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+
+    "web": {
+      "favicon": "./assets/icon/Klasscorp_splash.png"
+    },
+
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icon/Klasscorp_splash.png",
+          "imageWidth": 300,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
